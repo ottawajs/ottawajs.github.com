@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="OttawaJS : Ottawa JavaScript User Group" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="../stylesheets/stylesheet.css">
+
+    <title>OttawaJS</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.12/angular.min.js"></script>
+    <script src="draw.js"></script>
+    <!-- http://www.convertcsv.com/csv-to-json.htm -->
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+            <img src="https://raw.github.com/ottawajs/ottawajs-logo/master/OttawaJS.png" style="width:75px;float:left;padding-right:10px" alt="OttawaJS">
+            <h1 id="project_title">OttawaJS</h1>
+            <h2 id="project_tagline">Come and join us!</h2>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+        <section id="main_content" style="margin: 0 20%">
+
+
+            <div ng-app="draw">
+                Here is the draw
+                <div ng-controller="DrawController">
+                    <!-- <pre>{{attendees}}</pre> -->
+                    <!-- <pre>{{winner}}</pre> -->
+                    <h2>Winner: {{winner.Name}}</h2>
+                    <button ng-click="pickWinner()">Pick a Winner</button>
+                    <hr>
+                    <h3>Attendees: <i>({{attendees.length}})</i></h3>
+                    <ul>
+                        <li ng-repeat="att in attendees">
+                            {{att.Name}}
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+
+        </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+        <footer class="inner">
+            <p>Published with <a href="http://pages.github.com">GitHub Pages</a>
+            </p>
+        </footer>
+    </div>
+
+
+
+</body>
+
+</html>
