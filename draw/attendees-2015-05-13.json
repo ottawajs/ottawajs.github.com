@@ -22,17 +22,6 @@
     "URL of Member Profile":"http://www.meetup.com/Ottawa-JavaScript/members/141000752/"
   },
   {
-    "Name":"Ala J. Hamada",
-    "User ID":"user 183567330",
-    "Title":"",
-    "Event Host":"",
-    "RSVP":"Yes",
-    "Guests":null,
-    "RSVPed on":"05/07/2015 20:40:12",
-    "Joined Group on":"01/13/2015",
-    "URL of Member Profile":"http://www.meetup.com/Ottawa-JavaScript/members/183567330/"
-  },
-  {
     "Name":"Alan",
     "User ID":"user 132244702",
     "Title":"",
@@ -66,6 +55,17 @@
     "URL of Member Profile":"http://www.meetup.com/Ottawa-JavaScript/members/33777052/"
   },
   {
+    "Name":"Alexis",
+    "User ID":"user 102831822",
+    "Title":"",
+    "Event Host":"",
+    "RSVP":"Waiting List",
+    "Guests":null,
+    "RSVPed on":"05/12/2015 12:40:40",
+    "Joined Group on":"11/17/2014",
+    "URL of Member Profile":"http://www.meetup.com/Ottawa-JavaScript/members/102831822/"
+  },
+  {
     "Name":"Allan Hudgins",
     "User ID":"user 100642222",
     "Title":"",
@@ -75,17 +75,6 @@
     "RSVPed on":"05/02/2015 21:57:11",
     "Joined Group on":"08/12/2013",
     "URL of Member Profile":"http://www.meetup.com/Ottawa-JavaScript/members/100642222/"
-  },
-  {
-    "Name":"Aman",
-    "User ID":"user 185129958",
-    "Title":"",
-    "Event Host":"",
-    "RSVP":"Yes",
-    "Guests":null,
-    "RSVPed on":"05/12/2015 08:35:15",
-    "Joined Group on":"03/10/2015",
-    "URL of Member Profile":"http://www.meetup.com/Ottawa-JavaScript/members/185129958/"
   },
   {
     "Name":"Andrew Brough",
@@ -143,6 +132,17 @@
     "URL of Member Profile":"http://www.meetup.com/Ottawa-JavaScript/members/185204226/"
   },
   {
+    "Name":"Armel Beaudry",
+    "User ID":"user 103388112",
+    "Title":"",
+    "Event Host":"",
+    "RSVP":"Waiting List",
+    "Guests":null,
+    "RSVPed on":"05/12/2015 22:04:33",
+    "Joined Group on":"07/22/2013",
+    "URL of Member Profile":"http://www.meetup.com/Ottawa-JavaScript/members/103388112/"
+  },
+  {
     "Name":"Ben Whitney",
     "User ID":"user 99564632",
     "Title":"",
@@ -198,17 +198,6 @@
     "URL of Member Profile":"http://www.meetup.com/Ottawa-JavaScript/members/9691122/"
   },
   {
-    "Name":"Bruce",
-    "User ID":"BruceL",
-    "Title":"",
-    "Event Host":"",
-    "RSVP":"Yes",
-    "Guests":null,
-    "RSVPed on":"05/11/2015 13:47:41",
-    "Joined Group on":"12/03/2012",
-    "URL of Member Profile":"http://www.meetup.com/Ottawa-JavaScript/members/71609802/"
-  },
-  {
     "Name":"Cagdas Essiz",
     "User ID":"user 76944112",
     "Title":"",
@@ -229,6 +218,17 @@
     "RSVPed on":"05/07/2015 19:58:00",
     "Joined Group on":"08/20/2014",
     "URL of Member Profile":"http://www.meetup.com/Ottawa-JavaScript/members/157731692/"
+  },
+  {
+    "Name":"Carson",
+    "User ID":"Mordenkainen",
+    "Title":"",
+    "Event Host":"",
+    "RSVP":"Waiting List",
+    "Guests":null,
+    "RSVPed on":"05/12/2015 12:57:56",
+    "Joined Group on":"12/02/2014",
+    "URL of Member Profile":"http://www.meetup.com/Ottawa-JavaScript/members/148472802/"
   },
   {
     "Name":"Chris D'Aoust",
@@ -334,9 +334,9 @@
     "User ID":"user 64787632",
     "Title":"",
     "Event Host":"",
-    "RSVP":"Waiting List",
+    "RSVP":"Yes",
     "Guests":null,
-    "RSVPed on":"05/11/2015 13:50:37",
+    "RSVPed on":"05/13/2015 12:52:56",
     "Joined Group on":"10/03/2012",
     "URL of Member Profile":"http://www.meetup.com/Ottawa-JavaScript/members/64787632/"
   },
@@ -407,17 +407,6 @@
     "URL of Member Profile":"http://www.meetup.com/Ottawa-JavaScript/members/18275201/"
   },
   {
-    "Name":"Denis Zgonjanin",
-    "User ID":"user 9764984",
-    "Title":"",
-    "Event Host":"",
-    "RSVP":"Yes",
-    "Guests":null,
-    "RSVPed on":"05/11/2015 13:47:41",
-    "Joined Group on":"03/11/2013",
-    "URL of Member Profile":"http://www.meetup.com/Ottawa-JavaScript/members/9764984/"
-  },
-  {
     "Name":"Dennis",
     "User ID":"user 181347572",
     "Title":"",
@@ -433,9 +422,9 @@
     "User ID":"user 187139476",
     "Title":"",
     "Event Host":"",
-    "RSVP":"Waiting List",
+    "RSVP":"Yes",
     "Guests":null,
-    "RSVPed on":"05/11/2015 16:54:06",
+    "RSVPed on":"05/13/2015 13:41:22",
     "Joined Group on":"05/10/2015",
     "URL of Member Profile":"http://www.meetup.com/Ottawa-JavaScript/members/187139476/"
   },
@@ -495,6 +484,17 @@
     "URL of Member Profile":"http://www.meetup.com/Ottawa-JavaScript/members/186778272/"
   },
   {
+    "Name":"Georges-Antoine Assi",
+    "User ID":"user 187020786",
+    "Title":"",
+    "Event Host":"",
+    "RSVP":"Waiting List",
+    "Guests":null,
+    "RSVPed on":"05/13/2015 14:54:00",
+    "Joined Group on":"05/11/2015",
+    "URL of Member Profile":"http://www.meetup.com/Ottawa-JavaScript/members/187020786/"
+  },
+  {
     "Name":"Georgiy Shibaev",
     "User ID":"user 106348482",
     "Title":"",
@@ -504,17 +504,6 @@
     "RSVPed on":"04/24/2015 13:49:52",
     "Joined Group on":"08/12/2013",
     "URL of Member Profile":"http://www.meetup.com/Ottawa-JavaScript/members/106348482/"
-  },
-  {
-    "Name":"Grant Gayed",
-    "User ID":"user 101403752",
-    "Title":"",
-    "Event Host":"",
-    "RSVP":"Yes",
-    "Guests":null,
-    "RSVPed on":"05/02/2015 00:07:27",
-    "Joined Group on":"07/08/2013",
-    "URL of Member Profile":"http://www.meetup.com/Ottawa-JavaScript/members/101403752/"
   },
   {
     "Name":"Greg Dorval",
@@ -543,9 +532,9 @@
     "User ID":"user 143239522",
     "Title":"",
     "Event Host":"",
-    "RSVP":"Waiting List",
+    "RSVP":"Yes",
     "Guests":null,
-    "RSVPed on":"05/11/2015 18:20:03",
+    "RSVPed on":"05/13/2015 15:41:19",
     "Joined Group on":"04/27/2015",
     "URL of Member Profile":"http://www.meetup.com/Ottawa-JavaScript/members/143239522/"
   },
@@ -565,9 +554,9 @@
     "User ID":"user 101464132",
     "Title":"",
     "Event Host":"",
-    "RSVP":"Waiting List",
+    "RSVP":"Yes",
     "Guests":null,
-    "RSVPed on":"05/10/2015 22:24:49",
+    "RSVPed on":"05/13/2015 10:14:19",
     "Joined Group on":"08/06/2014",
     "URL of Member Profile":"http://www.meetup.com/Ottawa-JavaScript/members/101464132/"
   },
@@ -609,9 +598,9 @@
     "User ID":"user 51031922",
     "Title":"",
     "Event Host":"",
-    "RSVP":"Waiting List",
+    "RSVP":"Yes",
     "Guests":null,
-    "RSVPed on":"05/08/2015 11:27:19",
+    "RSVPed on":"05/12/2015 12:57:59",
     "Joined Group on":"06/12/2012",
     "URL of Member Profile":"http://www.meetup.com/Ottawa-JavaScript/members/51031922/"
   },
@@ -631,9 +620,9 @@
     "User ID":"user 84999502",
     "Title":"",
     "Event Host":"",
-    "RSVP":"Waiting List",
+    "RSVP":"Yes",
     "Guests":null,
-    "RSVPed on":"05/11/2015 19:01:43",
+    "RSVPed on":"05/13/2015 16:08:11",
     "Joined Group on":"02/18/2015",
     "URL of Member Profile":"http://www.meetup.com/Ottawa-JavaScript/members/84999502/"
   },
@@ -660,15 +649,15 @@
     "URL of Member Profile":"http://www.meetup.com/Ottawa-JavaScript/members/14319294/"
   },
   {
-    "Name":"Jeremy",
-    "User ID":"jeremybuis",
+    "Name":"Jess J",
+    "User ID":"user 186941467",
     "Title":"",
     "Event Host":"",
-    "RSVP":"Yes",
-    "Guests":null,
-    "RSVPed on":"04/16/2015 09:25:54",
-    "Joined Group on":"06/07/2012",
-    "URL of Member Profile":"http://www.meetup.com/Ottawa-JavaScript/members/29818322/"
+    "RSVP":"Waiting List",
+    "Guests":1,
+    "RSVPed on":"05/12/2015 17:19:29",
+    "Joined Group on":"05/04/2015",
+    "URL of Member Profile":"http://www.meetup.com/Ottawa-JavaScript/members/186941467/"
   },
   {
     "Name":"Jess Warren",
@@ -691,17 +680,6 @@
     "RSVPed on":"05/11/2015 22:24:27",
     "Joined Group on":"02/11/2013",
     "URL of Member Profile":"http://www.meetup.com/Ottawa-JavaScript/members/15895991/"
-  },
-  {
-    "Name":"John Eke",
-    "User ID":"user 50631072",
-    "Title":"",
-    "Event Host":"",
-    "RSVP":"Yes",
-    "Guests":null,
-    "RSVPed on":"05/11/2015 13:47:41",
-    "Joined Group on":"07/03/2012",
-    "URL of Member Profile":"http://www.meetup.com/Ottawa-JavaScript/members/50631072/"
   },
   {
     "Name":"John Isaac Drevniok",
@@ -774,9 +752,9 @@
     "User ID":"user 63377932",
     "Title":"",
     "Event Host":"",
-    "RSVP":"Waiting List",
+    "RSVP":"Yes",
     "Guests":null,
-    "RSVPed on":"05/10/2015 22:53:38",
+    "RSVPed on":"05/13/2015 12:24:32",
     "Joined Group on":"12/03/2012",
     "URL of Member Profile":"http://www.meetup.com/Ottawa-JavaScript/members/63377932/"
   },
@@ -807,31 +785,20 @@
     "User ID":"user 186961583",
     "Title":"",
     "Event Host":"",
-    "RSVP":"Waiting List",
-    "Guests":null,
-    "RSVPed on":"05/08/2015 12:20:09",
-    "Joined Group on":"05/05/2015",
-    "URL of Member Profile":"http://www.meetup.com/Ottawa-JavaScript/members/186961583/"
-  },
-  {
-    "Name":"Matt",
-    "User ID":"user 149598992",
-    "Title":"",
-    "Event Host":"",
     "RSVP":"Yes",
     "Guests":null,
-    "RSVPed on":"05/11/2015 13:47:41",
-    "Joined Group on":"01/14/2015",
-    "URL of Member Profile":"http://www.meetup.com/Ottawa-JavaScript/members/149598992/"
+    "RSVPed on":"05/12/2015 18:29:58",
+    "Joined Group on":"05/05/2015",
+    "URL of Member Profile":"http://www.meetup.com/Ottawa-JavaScript/members/186961583/"
   },
   {
     "Name":"Matt Drover",
     "User ID":"user 79913002",
     "Title":"",
     "Event Host":"",
-    "RSVP":"Waiting List",
+    "RSVP":"Yes",
     "Guests":null,
-    "RSVPed on":"05/09/2015 16:48:14",
+    "RSVPed on":"05/13/2015 09:04:53",
     "Joined Group on":"02/09/2013",
     "URL of Member Profile":"http://www.meetup.com/Ottawa-JavaScript/members/79913002/"
   },
@@ -840,33 +807,22 @@
     "User ID":"ferderbizzle",
     "Title":"",
     "Event Host":"",
-    "RSVP":"Waiting List",
+    "RSVP":"Yes",
     "Guests":null,
-    "RSVPed on":"05/11/2015 19:45:25",
+    "RSVPed on":"05/13/2015 16:08:14",
     "Joined Group on":"01/27/2014",
     "URL of Member Profile":"http://www.meetup.com/Ottawa-JavaScript/members/130272772/"
   },
   {
-    "Name":"Matthew Madden",
-    "User ID":"user 82620332",
+    "Name":"Matthew Francis Brunetti",
+    "User ID":"user 155836512",
     "Title":"",
     "Event Host":"",
-    "RSVP":"Yes",
+    "RSVP":"Waiting List",
     "Guests":null,
-    "RSVPed on":"04/09/2015 10:54:43",
-    "Joined Group on":"02/28/2013",
-    "URL of Member Profile":"http://www.meetup.com/Ottawa-JavaScript/members/82620332/"
-  },
-  {
-    "Name":"Mhamad Khodari",
-    "User ID":"user 80682352",
-    "Title":"",
-    "Event Host":"",
-    "RSVP":"Yes",
-    "Guests":null,
-    "RSVPed on":"05/07/2015 20:40:11",
-    "Joined Group on":"06/21/2014",
-    "URL of Member Profile":"http://www.meetup.com/Ottawa-JavaScript/members/80682352/"
+    "RSVPed on":"05/12/2015 19:00:05",
+    "Joined Group on":"05/12/2015",
+    "URL of Member Profile":"http://www.meetup.com/Ottawa-JavaScript/members/155836512/"
   },
   {
     "Name":"mike bourassa",
@@ -902,17 +858,6 @@
     "URL of Member Profile":"http://www.meetup.com/Ottawa-JavaScript/members/76233432/"
   },
   {
-    "Name":"Nick Schonning",
-    "User ID":"user 41516472",
-    "Title":"",
-    "Event Host":"",
-    "RSVP":"Yes",
-    "Guests":null,
-    "RSVPed on":"05/06/2015 21:30:29",
-    "Joined Group on":"07/25/2013",
-    "URL of Member Profile":"http://www.meetup.com/Ottawa-JavaScript/members/41516472/"
-  },
-  {
     "Name":"Owain",
     "User ID":"owowz",
     "Title":"Co-Organizer",
@@ -924,13 +869,24 @@
     "URL of Member Profile":"http://www.meetup.com/Ottawa-JavaScript/members/13311617/"
   },
   {
-    "Name":"Patrick",
-    "User ID":"user 153233352",
+    "Name":"Owen Kelly",
+    "User ID":"user 147959082",
     "Title":"",
     "Event Host":"",
     "RSVP":"Waiting List",
     "Guests":null,
-    "RSVPed on":"05/11/2015 14:03:16",
+    "RSVPed on":"05/13/2015 14:24:28",
+    "Joined Group on":"05/13/2015",
+    "URL of Member Profile":"http://www.meetup.com/Ottawa-JavaScript/members/147959082/"
+  },
+  {
+    "Name":"Patrick",
+    "User ID":"user 153233352",
+    "Title":"",
+    "Event Host":"",
+    "RSVP":"Yes",
+    "Guests":null,
+    "RSVPed on":"05/13/2015 13:02:06",
     "Joined Group on":"02/08/2015",
     "URL of Member Profile":"http://www.meetup.com/Ottawa-JavaScript/members/153233352/"
   },
@@ -944,6 +900,17 @@
     "RSVPed on":"05/07/2015 15:47:49",
     "Joined Group on":"05/07/2015",
     "URL of Member Profile":"http://www.meetup.com/Ottawa-JavaScript/members/57926272/"
+  },
+  {
+    "Name":"Peter Rushforth",
+    "User ID":"user 187239377",
+    "Title":"",
+    "Event Host":"",
+    "RSVP":"Waiting List",
+    "Guests":null,
+    "RSVPed on":"05/12/2015 13:53:57",
+    "Joined Group on":"05/12/2015",
+    "URL of Member Profile":"http://www.meetup.com/Ottawa-JavaScript/members/187239377/"
   },
   {
     "Name":"Philip Karpiak",
@@ -961,9 +928,9 @@
     "User ID":"user 183603658",
     "Title":"",
     "Event Host":"",
-    "RSVP":"Waiting List",
+    "RSVP":"Yes",
     "Guests":null,
-    "RSVPed on":"05/08/2015 13:11:48",
+    "RSVPed on":"05/13/2015 07:28:36",
     "Joined Group on":"01/15/2015",
     "URL of Member Profile":"http://www.meetup.com/Ottawa-JavaScript/members/183603658/"
   },
@@ -979,6 +946,17 @@
     "URL of Member Profile":"http://www.meetup.com/Ottawa-JavaScript/members/185644614/"
   },
   {
+    "Name":"Pradeep",
+    "User ID":"pradeepvarma9999@gmail.com",
+    "Title":"",
+    "Event Host":"",
+    "RSVP":"Waiting List",
+    "Guests":null,
+    "RSVPed on":"05/12/2015 23:33:26",
+    "Joined Group on":"02/25/2015",
+    "URL of Member Profile":"http://www.meetup.com/Ottawa-JavaScript/members/142607872/"
+  },
+  {
     "Name":"Raul S.",
     "User ID":"user 184301251",
     "Title":"",
@@ -990,35 +968,13 @@
     "URL of Member Profile":"http://www.meetup.com/Ottawa-JavaScript/members/184301251/"
   },
   {
-    "Name":"Richard Martin",
-    "User ID":"user 59218882",
-    "Title":"",
-    "Event Host":"",
-    "RSVP":"Yes",
-    "Guests":null,
-    "RSVPed on":"05/05/2015 20:10:53",
-    "Joined Group on":"06/21/2013",
-    "URL of Member Profile":"http://www.meetup.com/Ottawa-JavaScript/members/59218882/"
-  },
-  {
-    "Name":"Rob Mitchell",
-    "User ID":"user 61171782",
-    "Title":"",
-    "Event Host":"",
-    "RSVP":"Yes",
-    "Guests":null,
-    "RSVPed on":"05/11/2015 15:54:57",
-    "Joined Group on":"11/13/2012",
-    "URL of Member Profile":"http://www.meetup.com/Ottawa-JavaScript/members/61171782/"
-  },
-  {
     "Name":"Roland",
     "User ID":"user 134014542",
     "Title":"",
     "Event Host":"",
-    "RSVP":"Waiting List",
+    "RSVP":"Yes",
     "Guests":null,
-    "RSVPed on":"05/09/2015 14:40:35",
+    "RSVPed on":"05/13/2015 07:51:53",
     "Joined Group on":"05/14/2014",
     "URL of Member Profile":"http://www.meetup.com/Ottawa-JavaScript/members/134014542/"
   },
@@ -1060,9 +1016,9 @@
     "User ID":"user 97666522",
     "Title":"",
     "Event Host":"",
-    "RSVP":"Waiting List",
+    "RSVP":"Yes",
     "Guests":null,
-    "RSVPed on":"05/11/2015 17:33:32",
+    "RSVPed on":"05/13/2015 15:36:20",
     "Joined Group on":"03/07/2014",
     "URL of Member Profile":"http://www.meetup.com/Ottawa-JavaScript/members/97666522/"
   },
@@ -1133,15 +1089,15 @@
     "URL of Member Profile":"http://www.meetup.com/Ottawa-JavaScript/members/39426932/"
   },
   {
-    "Name":"Tasneem Saleem",
-    "User ID":"user 21189541",
+    "Name":"Swaroop Srinivasan",
+    "User ID":"user 185162673",
     "Title":"",
     "Event Host":"",
-    "RSVP":"Yes",
+    "RSVP":"Waiting List",
     "Guests":null,
-    "RSVPed on":"04/25/2015 19:36:47",
-    "Joined Group on":"08/13/2013",
-    "URL of Member Profile":"http://www.meetup.com/Ottawa-JavaScript/members/21189541/"
+    "RSVPed on":"05/13/2015 16:01:08",
+    "Joined Group on":"03/11/2015",
+    "URL of Member Profile":"http://www.meetup.com/Ottawa-JavaScript/members/185162673/"
   },
   {
     "Name":"Terence Wu",
@@ -1153,17 +1109,6 @@
     "RSVPed on":"04/12/2015 11:04:05",
     "Joined Group on":"01/12/2014",
     "URL of Member Profile":"http://www.meetup.com/Ottawa-JavaScript/members/58106542/"
-  },
-  {
-    "Name":"Thien Vuong",
-    "User ID":"user 160579722",
-    "Title":"",
-    "Event Host":"",
-    "RSVP":"Yes",
-    "Guests":null,
-    "RSVPed on":"05/07/2015 20:18:18",
-    "Joined Group on":"08/11/2014",
-    "URL of Member Profile":"http://www.meetup.com/Ottawa-JavaScript/members/160579722/"
   },
   {
     "Name":"Thomas GOHARD",
@@ -1199,17 +1144,6 @@
     "URL of Member Profile":"http://www.meetup.com/Ottawa-JavaScript/members/38742102/"
   },
   {
-    "Name":"Trudy",
-    "User ID":"user 184344348",
-    "Title":"",
-    "Event Host":"",
-    "RSVP":"Yes",
-    "Guests":null,
-    "RSVPed on":"05/02/2015 10:09:01",
-    "Joined Group on":"02/10/2015",
-    "URL of Member Profile":"http://www.meetup.com/Ottawa-JavaScript/members/184344348/"
-  },
-  {
     "Name":"vanajan",
     "User ID":"user 141418642",
     "Title":"",
@@ -1225,9 +1159,9 @@
     "User ID":"vstark",
     "Title":"",
     "Event Host":"",
-    "RSVP":"Waiting List",
+    "RSVP":"Yes",
     "Guests":null,
-    "RSVPed on":"05/08/2015 22:45:15",
+    "RSVPed on":"05/13/2015 07:40:19",
     "Joined Group on":"10/10/2014",
     "URL of Member Profile":"http://www.meetup.com/Ottawa-JavaScript/members/42409622/"
   },
@@ -1236,9 +1170,9 @@
     "User ID":"user 176618272",
     "Title":"",
     "Event Host":"",
-    "RSVP":"Waiting List",
+    "RSVP":"Yes",
     "Guests":null,
-    "RSVPed on":"05/11/2015 14:06:09",
+    "RSVPed on":"05/13/2015 13:05:55",
     "Joined Group on":"05/08/2015",
     "URL of Member Profile":"http://www.meetup.com/Ottawa-JavaScript/members/176618272/"
   },
@@ -1252,16 +1186,5 @@
     "RSVPed on":"05/03/2015 12:20:59",
     "Joined Group on":"07/07/2014",
     "URL of Member Profile":"http://www.meetup.com/Ottawa-JavaScript/members/155191342/"
-  },
-  {
-    "Name":"Wendy-Anne Daniel",
-    "User ID":"user 181554472",
-    "Title":"",
-    "Event Host":"",
-    "RSVP":"Waiting List",
-    "Guests":null,
-    "RSVPed on":"05/10/2015 19:18:31",
-    "Joined Group on":"11/04/2014",
-    "URL of Member Profile":"http://www.meetup.com/Ottawa-JavaScript/members/181554472/"
   }
 ]
