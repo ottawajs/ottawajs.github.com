@@ -1,87 +1,961 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="OttawaJS : Ottawa JavaScript User Group" />
+<head>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="OttawaJS.org - Ottawa JavaScript Community">
+    <meta name="author" content="Daniel Lauzon">
 
-    <title>OttawaJS</title>
-  </head>
+    <title>OttawaJS - Ottawa JavaScript Community</title>
 
-  <body>
+    <!-- Favicon -->
+    <!--[if IE]><link rel="shortcut icon" href="favicon.ico"><![endif]-->
+    <link rel="icon" href="logo/OttawaJS.png">
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <img src="https://raw.github.com/ottawajs/ottawajs-logo/master/OttawaJS.png"  style="width:75px;float:left;padding-right:10px" alt="OttawaJS">
-          <h1 id="project_title">OttawaJS</h1>
-          <h2 id="project_tagline">Come and join us!</h2>
-        </header>
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/agency.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+    <!-- <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'> -->
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">OttawaJS<small>.org</small></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Sponsors</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#team">Team</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">History</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <img class="logo" alt="Ottawa JavaScript" src="logo/OttawaJS.png">
+                <div class="intro-lead-in">Your Ottawa JavaScript Hub</div>
+                <div class="intro-heading"><span class="hidden-xs">Come </span>Join Us!</div>
+                <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">It's all about you</h2>
+                </div>
+            </div>
+            <div class="row bg-light-gray">
+                <div class="col-lg-12"><p class="text-muted">
+                    Are you a JavaScript enthusiast? Wether you're a newbie or an old-hand, 
+                    OttawaJS meetups are a great place to meet your peers.
+                    We are a group of JavaScript and NodeJS enthusiasts in Ottawa. We meet to share information, demos, new technologies, ask questions and learn together. We cover client-side and server-side JavaScript innovation in the local tech community.
+                </p></div>
+                <div class="col-lg-12"><p class="text-muted">
+                    The OttawaJS group meets the 2nd Wednesday of each month at the <a href="https://www.google.ca/maps/place/Adobe+Building/@45.402271,-75.709421,17z/data=!3m1!4b1!4m2!3m1!1s0x4cce0434558c4397:0x7a26bedbe28cc438">Adobe Building</a>. 
+                    We try to have a couple of presentations each month that cover a variety of topics from beginner to advanced.
+                </p></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h3 class="section-heading">How to get involved</h3>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-sm-3 col-xs-6">
+                    <a href="mailto:info@ottawajs.org"><span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                    </span></a>
+                    <h4 class="service-heading"><a href="mailto:info@ottawajs.org">info@ottawajs.org</a></h4>
+                    <p class="text-muted">This is the best way to contact the organizers.</p>
+                </div>
+                <div class="col-sm-3 col-xs-6">
+                    <span class="fa-stack fa-4x">
+                        <!-- <i class="fa fa-circle fa-stack-2x text-primary"></i> -->
+                        <!-- <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i> -->
+                        <a href="http://www.meetup.com/Ottawa-JavaScript/"><img border="0" alt="Ottawa JavaScript" src="http://img.meetup.com/img/logo_82.png"></a>
+                    </span>
+                    <h4 class="service-heading"><a href="http://www.meetup.com/Ottawa-JavaScript">Meetup.com</a></h4>
+                    <p class="text-muted">We use <a href="http://www.meetup.com/Ottawa-JavaScript">meetup.com</a> to manage attendance, and communication with our members</p>
+                </div>
+                <div class="col-sm-3 col-xs-6">
+                    <a href="https://twitter.com/ottawa_js"><span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                    </span></a>
+                    <h4 class="service-heading"><a href="https://twitter.com/ottawa_js">@ottawa_js</a></h4>
+                    <p class="text-muted">
+                        <a href="https://twitter.com/ottawa_js" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @ottawa_js</a>
+                        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                    </p>
+                    <p class="text-muted">
+                        Use the <a href="https://twitter.com/hashtag/ott_hljs">#ott_hljs</a> to highlight a tweet for <a href="https://twitter.com/elismatic">David's</a> infamous Headlines.JS segment.
+                    </p>
+                </div>
+                <div class="col-sm-3 col-xs-6">
+                    <a href="https://plus.google.com/+OttawajsOrg"><span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
+                    </span></a>
+                    <h4 class="service-heading"><a href="https://plus.google.com/+OttawajsOrg">Google Plus</a></h4>
+                    <p class="text-muted">
+                        Add us to your circles at <a href="https://plus.google.com/+OttawajsOrg">+OttawajsOrg</a> 
+                    </p>
+                    <p class="text-muted">
+                        We also have a 
+                        <a href="http://groups.google.com/group/ottawa-javascript">Google Group & mailing list</a>.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Sponsors</h2>
+                    <h3 class="section-subheading text-muted">
+                        We are generously sponsored by the following organizations, 
+                        and really couldn't do it without them. 
+                        Thanks!</h3>
+                </div>
+            </div>
+            <div class="row">
+            
+                <div class="col-md-3 col-sm-4 col-xs-6 portfolio-item">
+                    <a href="http://toushay.com" target="_blank" NOT-href="#portfolioModal1" class="portfolio-link" NOT-data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-external-link fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/sponsors/toushay.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Toushay</h4>
+                        <p class="text-muted">Refreshments and Meetup.com sponsorship</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-6 portfolio-item">
+                    <a href="http://teldio.com/" target="_blank" NOT-href="#portfolioModal2" class="portfolio-link" NOT-data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-external-link fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/sponsors/teldio.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Teldio</h4>
+                        <!-- <p class="text-muted">Two-Way Radio Applications Developer</p> -->
+                        <p class="text-muted">Event sponsor providing refreshments</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-6 portfolio-item">
+                    <a href="http://www.canvaspop.com/" target="_blank" NOT-href="#portfolioModal3" class="portfolio-link" NOT-data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-external-link fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/sponsors/canvaspop.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>CanvasPop</h4>
+                        <p class="text-muted">Refreshments and special events sponsorship</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-6 portfolio-item">
+                    <a href="http://www.mxi.com/" target="_blank" NOT-href="#portfolioModal4" class="portfolio-link" NOT-data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-external-link fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/sponsors/mxi.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Mxi Technologies</h4>
+                        <p class="text-muted">Refreshments for meetups</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-6 portfolio-item">
+                    <a href="http://www.magmic.com/" target="_blank" NOT-href="#portfolioModal5" class="portfolio-link" NOT-data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-external-link fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/sponsors/magmic.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Magmic</h4>
+                        <p class="text-muted">Event sponsorship</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-6 portfolio-item">
+                    <a href="https://ca.linkedin.com/pub/ken-walker/0/737/1" target="_blank" NOT-href="#portfolioModal6" class="portfolio-link" NOT-data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-external-link fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/sponsors/ken-walker.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Ken Walker</h4>
+                        <p class="text-muted">Provided speaker <span style="white-space: nowrap">t-shirts</span> (2013 - 2014)</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-6 portfolio-item">
+                    <a href="http://www.adobe.com/" target="_blank" NOT-href="#portfolioModal7" class="portfolio-link" NOT-data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-external-link fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/sponsors/adobe.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Adobe</h4>
+                        <p class="text-muted">Venue host</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-6 portfolio-item">
+                    <a href="http://www.thecodefactory.ca/" target="_blank" NOT-href="#portfolioModal8" class="portfolio-link" NOT-data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-external-link fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/sponsors/thecodefactory.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>The Code Factory</h4>
+                        <p class="text-muted">Special events hosting</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-6 portfolio-item">
+                    <a href="http://www.shopify.com/" target="_blank" NOT-href="#portfolioModal9" class="portfolio-link" NOT-data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-external-link fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/sponsors/shopify.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Shopify</h4>
+                        <p class="text-muted">Meeting venue and sponsorship</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-6 portfolio-item">
+                    <a href="http://www.ceridian.com/" target="_blank" NOT-href="#portfolioModal10" class="portfolio-link" NOT-data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-external-link fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/sponsors/ceridian.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Ceridian</h4>
+                        <p class="text-muted">Event sponsor providing refreshments</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-6 portfolio-item">
+                    <a href="https://www.conceptshare.com/" target="_blank" NOT-href="#portfolioModal11" class="portfolio-link" NOT-data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-external-link fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/sponsors/conceptshare.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>ConceptShare</h4>
+                        <p class="text-muted">Refreshments for meetups</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-6 portfolio-item">
+                    <a href="http://www.pluralsight.com/" target="_blank" NOT-href="#portfolioModal12" class="portfolio-link" NOT-data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-external-link fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/sponsors/pluralsight.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Pluralsight</h4>
+                        <p class="text-muted">Online Training - Trial Memberships</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Team Section -->
+    <section id="team" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Our Amazing Team</h2>
+                    <h3 class="section-subheading text-muted">The organizers who put these events together.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3 col-xs-6">
+                    <div class="team-member">
+                        <img src="img/team/darren.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Darren DeRidder</h4>
+                        <p class="text-muted">Founder, BDFL</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="https://twitter.com/73rhodes"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="https://plus.google.com/103786102963210810346"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="https://github.com/73rhodes"><i class="fa fa-github"></i></a></li>
+                            <!-- <li><a href="https://ca.linkedin.com/in/dderidder"><i class="fa fa-linkedin"></i></a></li> -->
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-xs-6">
+                    <div class="team-member">
+                        <img src="img/team/owain.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Owain Williams</h4>
+                        <p class="text-muted">Co-organizer</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="https://twitter.com/owz"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="https://plus.google.com/106861649335188173850/"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="https://github.com/owilliams"><i class="fa fa-github"></i></a></li>
+                            <!-- <li><a href="https://www.linkedin.com/profile/view?id=15487459"><i class="fa fa-linkedin"></i></a></li> -->
+                       </ul>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-xs-6">
+                    <div class="team-member">
+                        <img src="img/team/david.jpg" class="img-responsive img-circle" alt="">
+                        <h4>David Elisma</h4>
+                        <p class="text-muted">Co-organizer</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="https://twitter.com/elismatic"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="https://plus.google.com/+DavidElisma"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="https://github.com/elismatiq"><i class="fa fa-github"></i></a></li>
+                            <!-- <li><a href="https://ca.linkedin.com/in/elismatic"><i class="fa fa-linkedin"></i></a> -->
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-xs-6">
+                    <div class="team-member">
+                        <img src="img/team/thomas.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Thomas Martineau</h4>
+                        <p class="text-muted">Co-organizer</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="https://twitter.com/TMartineau"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="https://plus.google.com/+ThomasMartineau"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="https://github.com/tmartineau"><i class="fa fa-github"></i></a></li>
+                            <!-- <li><a href="https://ca.linkedin.com/pub/thomas-martineau/53/421/b77"><i class="fa fa-linkedin"></i></a></li> -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3 col-xs-6">
+                    <div class="team-member">
+                        <img src="img/team/simonM.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Simon Mac Donald</h4>
+                        <p class="text-muted">Co-organizer</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="https://twitter.com/macdonst"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="https://plus.google.com/+SimonMacDonald"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="https://github.com/macdonst"><i class="fa fa-github"></i></a></li>
+                            <!-- <li><a href="https://ca.linkedin.com/in/simonmacdonald"><i class="fa fa-linkedin"></i></a></li> -->
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-xs-6">
+                    <div class="team-member">
+                        <img src="img/team/simonK.png" class="img-responsive img-circle" alt="">
+                        <h4>Simon Kaegi</h4>
+                        <p class="text-muted">Co-organizer</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="https://twitter.com/skaegi"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="https://plus.google.com/+SimonKaegi"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="https://github.com/skaegi"><i class="fa fa-github"></i></a></li>
+                            <!-- <li><a href="https://ca.linkedin.com/pub/simon-kaegi/1/695/b78"><i class="fa fa-linkedin"></i></a></li> -->
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-xs-6">
+                    <div class="team-member">
+                        <img src="img/team/daniel.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Daniel Lauzon</h4>
+                        <p class="text-muted">Co-organizer</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="https://twitter.com/daneroo"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="https://plus.google.com/+DanielLauzon"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="https://github.com/daneroo"><i class="fa fa-github"></i></a></li>
+                            <!-- <li><a href="https://ca.linkedin.com/pub/daniel-lauzon/12/39b/b07"><i class="fa fa-linkedin"></i></a></li> -->
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-xs-6">
+                    <div class="team-member">
+                        <img src="img/team/mark.png" class="img-responsive img-circle" alt="">
+                        <h4>Mark Dabrowski</h4>
+                        <p class="text-muted">Co-organizer</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="https://twitter.com/markdabrowski"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="https://plus.google.com/104868596110337279706"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="https://github.com/mdabski"><i class="fa fa-github"></i></a></li>
+                            <!-- <li><a href="https://ca.linkedin.com/in/markdabrowski"><i class="fa fa-linkedin"></i></a></li> -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2 text-center">
+                    <p class="large text-muted">OttawaJS is run by volunteer organizers. If you'd like to pitch in, please do not hesitate to <a href="mailto:info@ottawajs.org">contact us</a>.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">History</h2>
+                    <h3 class="section-subheading text-muted">Milestones along our path.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="timeline">
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/darren-presenting.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>Summer 2011</h4>
+                                    <h4 class="subheading">Our Humble Beginnings</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Darren DeRidder founded this group in 2011, with a vision of gathering like-minded enthusiasts for JavaScript and Node.js developpment.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/meetup.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>June 2012</h4>
+                                    <h4 class="subheading">Joining Meetup.com</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">This was quite instrumental in growing the group.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/about/shopify-meetup.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>February 2014</h4>
+                                    <h4 class="subheading">500 member milestone</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">This is when we reached the 500 member mark on meetup.com. We are now about a thousand strong, with new members every month, and about a hundred members attending each meetup (mostly due to space limitations!).</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <h4>Be Part
+                                    <br>Of Our
+                                    <br>Story!</h4>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clients Aside -->
+<!-- 
+    <aside class="clients">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <a href="#">
+                        <img src="img/logos/envato.jpg" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="#">
+                        <img src="img/logos/designmodo.jpg" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="#">
+                        <img src="img/logos/themeforest.jpg" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href="#">
+                        <img src="img/logos/creative-market.jpg" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </aside>
+ -->    
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; OttawaJS.org 2015</span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        <li><a href="https://twitter.com/ottawa_js"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="https://plus.google.com/+OttawajsOrg"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="https://github.com/ottawajs/"><i class="fa fa-github"></i></a></li>
+                        <!-- <li><a href="#"><i class="fa fa-linkedin"></i></a></li> -->
+                     </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+                        <li>Published with <a href="https://pages.github.com/">GitHub Pages</a>  (<a href="https://github.com/ottawajs/site-2015">Source</a>)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Portfolio Modals -->
+    <!-- Use the modals below to showcase details about your portfolio projects! -->
+
+    <!-- Portfolio Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Toushay</h2>
+                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                            <img class="img-responsive img-centered" src="img/sponsors/toushay.png" alt="">
+                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                            <p>
+                                <strong>Want these icons in this portfolio item sample?</strong>You can download 60 of them for free, courtesy of <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">RoundIcons.com</a>, or you can purchase the 1500 icon set <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">here</a>.</p>
+                            <ul class="list-inline">
+                                <li>Date: July 2014</li>
+                                <li>Client: Round Icons</li>
+                                <li>Category: Graphic Design</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-        <section id="main_content" class="inner">
-            <h3>Welcome to OttawaJS.</h3>
-
-            <p>OttawaJS is a group for Javascript and NodeJS enthusiasts in Ottawa. We meet to share information, demos, new technologies and promote client-side and server-side Javascript innovation in the local tech community.</p>
-
-            <div style="float:right"><a href="http://www.meetup.com/r/inbound/0/0/shareimg/http://www.meetup.com/Ottawa-JavaScript/?a=shareimg"><img border="0" alt="Ottawa JavaScript" src="http://img.meetup.com/img/logo_82.png"></a></div>
-            <h3>Meetups</h3>
-
-            <p>The OttawaJS group meets the 2nd Wednesday of each month at the <a href="https://www.google.ca/maps/place/Adobe+Building/@45.402271,-75.709421,17z/data=!3m1!4b1!4m2!3m1!1s0x4cce0434558c4397:0x7a26bedbe28cc438">Adobe Building</a>. We share information and ideas, show demos of our projects, ask questions and learn together. We try to have a couple of presentations each month that cover a variety of topics from beginner to advanced. Its a great place to meet people who are doing some very interesting projects in JavaScript.</p>
-
-            <p>We have a Meetup.com page at <a href="http://meetup.com/Ottawa-JavaScript">http://meetup.com/Ottawa-JavaScript</a>
-
-            <h3>Google Group</h3>
-            <p>We have a Google Group & mailing list at <a href="http://groups.google.com/group/ottawa-javascript">http://groups.google.com/group/ottawa-javascript</a></p>
-
-            <h3>Google+ Page</h3>
-            <p>We have a Google+ page at this url:
-              <a href="http://plus.google.com/118390499945250943795">
-                http://plus.google.com/118390499945250943795
-              </a> or you can use the more convenient and memorable:
-              <a href="http://ottawajs.org/+">http://ottawajs.org/+</a>
-            </p>
-            <div class="g-plus" data-href="//plus.google.com/118390499945250943795" data-rel="publisher"></div>
-            <script type="text/javascript">
-              (function() {
-                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-                po.src = 'https://apis.google.com/js/plusone.js';
-                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-              })();
-            </script>
-
-            <h3>Twitter</h3>
-            <a href="https://twitter.com/ottawa_js" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @ottawa_js</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
-            <h3>Sponsors</h3>
-            <p>
-              OttawaJS is generously sponsored by
-              <a href="http://www.shopify.com/">Shopify</a>,
-              <a href="http://www.toushay.com/">Toushay</a>,
-              <a href="http://canvaspop.com">CanvasPOP</a>,
-              <a href="http://teldio.com">Teldio</a>,
-              <a href="http://magmic.com">Magmic</a>,
-              <a href="http://www.eclipse.org/orion">IBM's Project Orion</a>,
-              <a href="http://thecodefactory.ca/">The Code Factory</a>
-              and soon by <a href="http://www.pluralsight.com/">PluralSight</a>
-            </p>
-        </section>
+    <!-- Portfolio Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Teldio</h2>
+                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                            <img class="img-responsive img-centered" src="img/sponsors/teldio.png" alt="">
+                            <p><a href="http://designmodo.com/startup/?u=787">Startup Framework</a> is a website builder for professionals. Startup Framework contains components and complex blocks (PSD+HTML Bootstrap themes and templates) which can easily be integrated into almost any design. All of these components are made in the same style, and can easily be integrated into projects, allowing you to create hundreds of solutions for your future projects.</p>
+                            <p>You can preview Startup Framework <a href="http://designmodo.com/startup/?u=787">here</a>.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
+    <!-- Portfolio Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>CanvasPop</h2>
+                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                            <img class="img-responsive img-centered" src="img/sponsors/canvaspop.png" alt="">
+                            <p>Treehouse is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. This is bright and spacious design perfect for people or startup companies looking to showcase their apps or other projects.</p>
+                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/treehouse-free-psd-web-template/">FreebiesXpress.com</a>.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    
+    <!-- Portfolio Modal 4 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Mxi Technologies</h2>
+                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                            <img class="img-responsive img-centered" src="img/sponsors/mxi.png" alt="">
+                            <p>Start Bootstrap's Agency theme is based on Golden, a free PSD website template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Golden is a modern and clean one page web template that was made exclusively for Best PSD Freebies. This template has a great portfolio, timeline, and meet your team sections that can be easily modified to fit your needs.</p>
+                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/golden-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-  </body>
+    <!-- Portfolio Modal 5 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Magmic</h2>
+                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                            <img class="img-responsive img-centered" src="img/sponsors/magmic.png" alt="">
+                            <p>Escape is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Escape is a one page web template that was designed with agencies in mind. This template is ideal for those looking for a simple one page solution to describe your business and offer your services.</p>
+                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/escape-one-page-psd-web-template/">FreebiesXpress.com</a>.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 6 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Ken Walker</h2>
+                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                            <img class="img-responsive img-centered" src="img/sponsors/ken-walker.jpg" alt="">
+                            <p>Dreams is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Dreams is a modern one page web template designed for almost any purpose. It’s a beautiful template that’s designed with the Bootstrap framework in mind.</p>
+                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/dreams-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 7 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Adobe</h2>
+                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+
+                            <img class="img-responsive img-centered" src="img/sponsors/adobe.jpg" alt="">
+                            
+                            <p>Other details</p>
+
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 8 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>The Code Factory</h2>
+                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+
+                            <img class="img-responsive img-centered" src="img/sponsors/thecodefactory.png" alt="">
+                            
+                            <p>Other details</p>
+
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 9 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Shopify</h2>
+                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+
+                            <img class="img-responsive img-centered" src="img/sponsors/shopify.png" alt="">
+                            
+                            <p>Other details</p>
+
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 10 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal10" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Ceridian</h2>
+                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+
+                            <img class="img-responsive img-centered" src="img/sponsors/ceridian.jpg" alt="">
+                            
+                            <p>Other details</p>
+
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 11 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal11" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>ConceptShare</h2>
+                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+
+                            <img class="img-responsive img-centered" src="img/sponsors/conceptshare.png" alt="">
+                            
+                            <p>Other details</p>
+
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 12 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal12" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Pluralsight</h2>
+                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+
+                            <img class="img-responsive img-centered" src="img/sponsors/pluralsight.png" alt="">
+                            
+                            <p>Other details</p>
+
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/agency.js"></script>
+
+</body>
+
 </html>
