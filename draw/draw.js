@@ -1,4 +1,6 @@
 'use strict';
+/*jshint devel:true*/
+/* global angular*/
 // --change the event id for the current meetup
 // from Meetup page: Tools/Download attendee liste.g.:
 // May 13 http://www.meetup.com/Ottawa-JavaScript/events/218835551/csv/
@@ -9,12 +11,14 @@
 
 
 angular.module("draw", [])
-    .controller("DrawController", function($scope,$http) {
+    .controller("DrawController", function($scope, $http) {
         $scope.helloTo = {};
         $scope.helloTo.title = "World, AngularJS";
-        $scope.attendees = [{Name:'Daneroo'}];
-        $scope.drawDate ='2015-07-08';
-        var dataFile = 'attendees-'+$scope.drawDate+'.json';
+        $scope.attendees = [{
+            Name: 'Daneroo'
+        }];
+        $scope.drawDate = '2015-07-08';
+        var dataFile = 'attendees-' + $scope.drawDate + '.json';
 
         $http.get(dataFile).then(function(resp) {
             console.log(resp);
@@ -22,7 +26,7 @@ angular.module("draw", [])
             // console.log($scope.attendees);
         });
 
-        $scope.pickWinner = function(){
+        $scope.pickWinner = function() {
             $scope.winner = $scope.attendees[Math.floor(Math.random() * $scope.attendees.length)];
         };
     });
