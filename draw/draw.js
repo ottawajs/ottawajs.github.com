@@ -13,8 +13,10 @@ angular.module("draw", [])
         $scope.helloTo = {};
         $scope.helloTo.title = "World, AngularJS";
         $scope.attendees = [{Name:'Daneroo'}];
+        $scope.drawDate ='2015-07-08';
+        var dataFile = 'attendees-'+$scope.drawDate+'.json';
 
-        $http.get('attendees-2015-06-10.json').then(function(resp) {
+        $http.get(dataFile).then(function(resp) {
             console.log(resp);
             $scope.attendees = resp.data;
             // console.log($scope.attendees);
