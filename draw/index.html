@@ -10,6 +10,7 @@
 
     <title>OttawaJS</title>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.12/angular.min.js"></script>
+    <script src="mersenne-twister.js"></script>
     <script src="draw.js"></script>
     <!-- http://www.convertcsv.com/csv-to-json.htm -->
 </head>
@@ -33,6 +34,7 @@
             <div ng-app="draw">
                 <div ng-controller="DrawController">
                     <div>Here is the draw for the meetup of <em>{{drawDate}}</em></div>
+                    <div>Update: <em style="color:red">Now using Mersenne twister technology for random number generator!</em></div>
                     <!-- <pre>{{attendees}}</pre> -->
                     <!-- <pre>{{winner}}</pre> -->
                     <h2>Winner: {{winner.Name}}</h2>

@@ -27,7 +27,8 @@ angular.module("draw", [])
             // console.log($scope.attendees);
         });
 
+        var m = new MersenneTwister();
         $scope.pickWinner = function() {
-            $scope.winner = $scope.attendees[Math.floor(Math.random() * $scope.attendees.length)];
+            $scope.winner = $scope.attendees[Math.floor(m.random() * $scope.attendees.length)];
         };
     });
