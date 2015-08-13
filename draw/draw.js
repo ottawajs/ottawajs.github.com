@@ -6,6 +6,7 @@
 // May 13 http://www.meetup.com/Ottawa-JavaScript/events/218835551/csv/
 // Jun 10 http://www.meetup.com/Ottawa-JavaScript/events/218835536/csv/
 // Jul  8 http://www.meetup.com/Ottawa-JavaScript/events/218835552/csv/
+// Aug 12 http://www.meetup.com/Ottawa-JavaScript/events/218835537/csv/
 // then convert tp json
 //    <!-- http://www.convertcsv.com/csv-to-json.htm -->
 
@@ -17,7 +18,7 @@ angular.module("draw", [])
         $scope.attendees = [{
             Name: 'Daneroo'
         }];
-        $scope.drawDate = '2015-07-08';
+        $scope.drawDate = '2015-08-12';
         var dataFile = 'attendees-' + $scope.drawDate + '.json';
 
         $http.get(dataFile).then(function(resp) {
